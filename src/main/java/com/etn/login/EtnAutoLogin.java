@@ -27,17 +27,17 @@ public class EtnAutoLogin extends BaseAutoLogin {
     @Override
     protected String[] doLogin(HttpServletRequest request, HttpServletResponse response) throws Exception {
         long companyId = _portal.getCompanyId(request);
-        String aUsername = request.getParameter("username");
+        String login = request.getParameter("username");
 
-        if (Validator.isNull(aUsername)) {
+        if (Validator.isNull(login)) {
             if (_log.isInfoEnabled()) {
-                _log.info("No login found for " + aUsername);
+                _log.info("No login found for " + login);
             }
 
             return null;
         }
 
-        User user = getUser(companyId, aUsername);
+        User user = getUser(companyId, login);
         //addRedirect(request);
 
         String[] credentials = new String[3];
