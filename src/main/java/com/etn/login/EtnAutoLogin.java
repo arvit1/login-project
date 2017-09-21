@@ -38,14 +38,13 @@ public class EtnAutoLogin extends BaseAutoLogin {
         }
 
         User user = getUser(companyId, login);
-        //addRedirect(request);
+        addRedirect(request);
 
         String[] credentials = new String[3];
 
         credentials[0] = String.valueOf(user.getUserId());
         credentials[1] = user.getPassword();
         credentials[2] = Boolean.TRUE.toString();
-        credentials[3] = AutoLogin.AUTO_LOGIN_REDIRECT_AND_CONTINUE;
 
         return credentials;
     }
