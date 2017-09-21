@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1797995166/LifeWK.iml" filepath="$PROJECT_DIR$/.idea/modules/-1797995166/LifeWK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-project.iml" filepath="$PROJECT_DIR$/login-project.iml" group="modules/login-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login-project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/login-project_main.iml" group="modules/login-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login-project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/login-project_test.iml" group="modules/login-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login-project_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/login-project_testIntegration.iml" group="modules/login-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1207085018/modules.iml" filepath="$PROJECT_DIR$/.idea/modules/1207085018/modules.iml" group="modules" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1677381834/rest-api.iml" filepath="$PROJECT_DIR$/.idea/modules/-1677381834/rest-api.iml" group="modules/rest-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_main.iml" group="modules/rest-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_test.iml" group="modules/rest-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/-1677381834/rest-api_testIntegration.iml" group="modules/rest-api" />
+    </modules>
+  </component>
+</project>
