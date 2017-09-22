@@ -27,8 +27,8 @@ public class EtnAutoLogin extends BaseAutoLogin {
     @Override
     protected String[] doLogin(HttpServletRequest request, HttpServletResponse response) throws Exception {
         long companyId = _portal.getCompanyId(request);
-        String login = request.getParameter("username");
-
+        String dec = request.getParameter("username");
+        String login = EncryptionUtil.decode(dec);
         if (Validator.isNull(login)) {
             if (_log.isInfoEnabled()) {
                 _log.info("No login found for " + login);
