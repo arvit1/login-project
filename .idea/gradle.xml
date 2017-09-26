@@ -5,14 +5,29 @@
       <GradleProjectSettings>
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../.gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.gradle" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../.." />
-            <option value="$PROJECT_DIR$/.." />
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/../rest-api" />
+            <option value="$PROJECT_DIR$/apps" />
+            <option value="$PROJECT_DIR$/apps/foundation" />
+            <option value="$PROJECT_DIR$/apps/foundation/portal-security-sso" />
+            <option value="$PROJECT_DIR$/portal-security-sso-cas" />
+            <option value="$PROJECT_DIR$/portal-security-sso-cas-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-facebook-connect" />
+            <option value="$PROJECT_DIR$/portal-security-sso-facebook-connect-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-google" />
+            <option value="$PROJECT_DIR$/portal-security-sso-google-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-ntlm" />
+            <option value="$PROJECT_DIR$/portal-security-sso-ntlm-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-openid" />
+            <option value="$PROJECT_DIR$/portal-security-sso-openid-connect" />
+            <option value="$PROJECT_DIR$/portal-security-sso-openid-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-opensso" />
+            <option value="$PROJECT_DIR$/portal-security-sso-opensso-test" />
+            <option value="$PROJECT_DIR$/portal-security-sso-token" />
+            <option value="$PROJECT_DIR$/portal-security-sso-token-test" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

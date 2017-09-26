@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="login-project_main" target="1.8" />
-      <module name="login-project_test" target="1.8" />
-      <module name="login-project_testIntegration" target="1.8" />
-      <module name="rest-api_main" target="1.8" />
-      <module name="rest-api_test" target="1.8" />
-      <module name="rest-api_testIntegration" target="1.8" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="portal-security-sso-cas-test_main" target="1.8" />
+      <module name="portal-security-sso-cas-test_test" target="1.8" />
+      <module name="portal-security-sso-cas-test_testIntegration" target="1.8" />
+      <module name="portal-security-sso-cas_main" target="1.8" />
+      <module name="portal-security-sso-cas_test" target="1.8" />
+      <module name="portal-security-sso-cas_testIntegration" target="1.8" />
+      <module name="portal-security-sso-facebook-connect-test_main" target="1.8" />
+      <module name="portal-security-sso-facebook-connect-test_test" target="1.8" />
+      <module name="portal-security-sso-facebook-connect-test_testIntegration" target="1.8" />
+      <module name="portal-security-sso-facebook-connect_main" target="1.8" />
+      <module name="portal-security-sso-facebook-connect_test" target="1.8" />
+      <module name="portal-security-sso-facebook-connect_testIntegration" target="1.8" />
+      <module name="portal-security-sso-google-test_main" target="1.8" />
+      <module name="portal-security-sso-google-test_test" target="1.8" />
+      <module name="portal-security-sso-google-test_testIntegration" target="1.8" />
+      <module name="portal-security-sso-google_main" target="1.8" />
+      <module name="portal-security-sso-google_test" target="1.8" />
+      <module name="portal-security-sso-google_testIntegration" target="1.7" />
+      <module name="portal-security-sso-ntlm-test_main" target="1.7" />
+      <module name="portal-security-sso-ntlm-test_test" target="1.7" />
+      <module name="portal-security-sso-ntlm-test_testIntegration" target="1.7" />
+      <module name="portal-security-sso-ntlm_main" target="1.7" />
+      <module name="portal-security-sso-ntlm_test" target="1.7" />
+      <module name="portal-security-sso-ntlm_testIntegration" target="1.7" />
+      <module name="portal-security-sso-openid-connect_main" target="1.8" />
+      <module name="portal-security-sso-openid-connect_test" target="1.8" />
+      <module name="portal-security-sso-openid-connect_testIntegration" target="1.8" />
+      <module name="portal-security-sso-openid-test_main" target="1.7" />
+      <module name="portal-security-sso-openid-test_test" target="1.7" />
+      <module name="portal-security-sso-openid-test_testIntegration" target="1.7" />
+      <module name="portal-security-sso-openid_main" target="1.7" />
+      <module name="portal-security-sso-openid_test" target="1.7" />
+      <module name="portal-security-sso-openid_testIntegration" target="1.7" />
+      <module name="portal-security-sso-opensso-test_main" target="1.7" />
+      <module name="portal-security-sso-opensso-test_test" target="1.7" />
+      <module name="portal-security-sso-opensso-test_testIntegration" target="1.7" />
+      <module name="portal-security-sso-opensso_main" target="1.7" />
+      <module name="portal-security-sso-opensso_test" target="1.7" />
+      <module name="portal-security-sso-opensso_testIntegration" target="1.7" />
+      <module name="portal-security-sso-token-test_main" target="1.7" />
+      <module name="portal-security-sso-token-test_test" target="1.7" />
+      <module name="portal-security-sso-token-test_testIntegration" target="1.7" />
+      <module name="portal-security-sso-token_main" target="1.8" />
+      <module name="portal-security-sso-token_test" target="1.7" />
+      <module name="portal-security-sso-token_testIntegration" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
