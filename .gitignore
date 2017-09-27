@@ -1,9 +1,10 @@
 **/docroot/WEB-INF/tld/
 *.iml
 .classpath
-.gradle/
-.idea/
+/.gradle/
+/.idea/
 .project
+.lfrbuild-portal
 .sass-cache/
 .settings/
 bin/
