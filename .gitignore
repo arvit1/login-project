@@ -2,7 +2,7 @@
 *.iml
 .classpath
 /.gradle/
-/.idea/
+/.idea/*
 .project
 .lfrbuild-portal
 .sass-cache/
