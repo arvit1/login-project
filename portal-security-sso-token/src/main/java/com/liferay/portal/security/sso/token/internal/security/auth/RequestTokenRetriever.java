@@ -14,7 +14,10 @@
 
 package com.liferay.portal.security.sso.token.internal.security.auth;
 
+import com.liferay.portal.kernel.log.Log;
+import com.liferay.portal.kernel.log.LogFactoryUtil;
 import com.liferay.portal.kernel.util.ParamUtil;
+import com.liferay.portal.security.sso.token.internal.auto.login.TokenAutoLogin;
 import com.liferay.portal.security.sso.token.internal.util.EncryptionUtil;
 import com.liferay.portal.security.sso.token.security.auth.TokenLocation;
 import com.liferay.portal.security.sso.token.security.auth.TokenRetriever;
@@ -33,7 +36,7 @@ public class RequestTokenRetriever implements TokenRetriever {
 	public String getLoginToken(
 		HttpServletRequest request, String userTokenName) {
 		String s = EncryptionUtil.decode(ParamUtil.getString(request, userTokenName));
-		System.out.println("LOGIN-AUTO " + s);
+		_log.warn("=====================LOGIN-AUTO=========================== " + s);
 		return s;
 	}
 
@@ -42,4 +45,5 @@ public class RequestTokenRetriever implements TokenRetriever {
 		return TokenLocation.REQUEST;
 	}
 
+    private static final Log _log = LogFactoryUtil.getLog(TokenAutoLogin.class);
 }
