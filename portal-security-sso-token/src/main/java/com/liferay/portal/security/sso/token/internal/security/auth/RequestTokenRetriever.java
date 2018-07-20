@@ -36,7 +36,7 @@ public class RequestTokenRetriever implements TokenRetriever {
 	public String getLoginToken(
 		HttpServletRequest request, String userTokenName) {
 		String s = EncryptionUtil.decode(ParamUtil.getString(request, userTokenName));
-		_log.debug("=====================LOGIN-AUTO=========================== " + s);
+		_log.info("=====================LOGIN-AUTO=========================== " + s);
 		return s;
 	}
 
