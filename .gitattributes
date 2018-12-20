@@ -1,1 +1,2 @@
-*.soy	text eol=lf
+*.soy
+.idea/
